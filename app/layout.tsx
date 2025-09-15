@@ -21,8 +21,10 @@ export default async function RootLayout({
 }>) {
 	return (
     <html lang="en" suppressHydrationWarning>
-		<link rel="stylesheet" href="/custom.css">
-		<script src="/custom.js" defer></script>
+		<head>
+			<link rel="stylesheet" href="/custom.css">
+			<script src="/custom.js" defer></script>
+		</head>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
