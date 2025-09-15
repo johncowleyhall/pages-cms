@@ -7,3 +7,9 @@ button:has(svg.lucide-folder-open) {
 button:has(svg.lucide-folder-open)::after {
     content: "Select from Media";
 }
+
+/* Prints */
+.portfolio-image {
+    max-block-size: 50svh;
+    max-inline-size: 50svw;
+}
