@@ -22,7 +22,7 @@ export default async function RootLayout({
 	return (
     <html lang="en" suppressHydrationWarning>
 		<head>
-			<link rel="stylesheet" href="/custom.css">
+			<link rel="stylesheet" href="/custom.css" />
 			<script src="/custom.js" defer></script>
 		</head>
       <body
