@@ -1,0 +1,9 @@
+button:has(svg.lucide-folder-open) {
+    inline-size: max-content;
+    gap: 0.4rem;
+    padding-inline: 1em;
+}
+
+button:has(svg.lucide-folder-open)::after {
+    content: "Select from Media";
+}
